@@ -63,6 +63,6 @@ public class EmployeeController {
     public String deleteEmplyee(@PathVariable ("employeeId") Integer employeeId){
         employeeService.deleteEmployee(employeeId);
         return "redirect:/list";
-        /*controller code has changed for pull request */
+        /*controller code has changed for pull request for feature*/
     }
 }
